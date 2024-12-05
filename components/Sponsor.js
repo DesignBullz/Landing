@@ -59,7 +59,7 @@ const Sponsor = () => {
                 layout="fill"
                 objectFit="contain"
                 objectPosition={"center"}
-                src="/sponsor/h.webp" // Update to your relevant logo
+                src="/sponsor/h.jpg" // Update to your relevant logo
                 alt="hdfc-finance"
               />
             </div>
