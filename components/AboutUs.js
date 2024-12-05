@@ -72,7 +72,7 @@ import React from "react";
 import { Button, Container } from ".";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter2, fadeInLeft } from "@/keyframes";
-import Image from "next/image";
+// import Image from "next/image";
 import v from "../public/icons/q.mp4";
 
 const AboutUs = () => {
