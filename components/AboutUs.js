@@ -1,108 +1,3 @@
-// import React from "react";
-// import { Button, Container } from ".";
-// import { Reveal } from "react-awesome-reveal";
-// import { fadeInDownShorter2, fadeInLeft } from "@/keyframes";
-// import v from "../public/icons/q.mp4"; // Video source for SIP-related video
-
-// const AboutUs = () => {
-//   return (
-//     <Container className="mb-44 scroll-mt-10" id="about">
-//       {/* About Us Section */}
-//       <div className="text-center mb-8">
-//         <h2 className="font-bold text-3xl mb-2">
-//           About Systematic Investment Plan (SIP)
-//         </h2>
-//         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>
-//           <p className="opacity-50 w-full sm:w-[400px] mx-auto">
-//             SIP is an investment strategy where you invest a fixed amount
-//             regularly in mutual funds or stocks. It helps you build wealth over
-//             time with the power of compounding, allowing you to achieve your
-//             financial goals without worrying about market fluctuations.
-//           </p>
-//         </Reveal>
-//       </div>
-
-//       {/* Video Section */}
-//       <div className="flex items-center">
-//         <div className="w-full sm:w-[44%] relative rounded-2xl overflow-hidden">
-//           <Reveal keyframes={fadeInLeft} triggerOnce>
-//             <div className="relative w-full h-[350px] sm:h-[500px] lg:h-[700px]">
-//               <video
-//                 className="absolute top-0 left-0 w-full h-full object-cover"
-//                 autoPlay
-//                 loop
-//                 muted
-//               >
-//                 <source src={v} type="video/mp4" />
-//                 Your browser does not support the video tag.
-//               </video>
-//             </div>
-//           </Reveal>
-//         </div>
-
-//         {/* Content Section */}
-//         <div className="flex-1 ml-0 sm:ml-10 lg:ml-20">
-//           <h3 className="font-bold text-2xl mb-3">Why Choose SIP?</h3>
-//           <p className="mb-3 opacity-50">
-//             SIP allows you to invest in small amounts regularly, making it
-//             affordable for everyone. It helps you reduce the risk of market
-//             volatility by averaging the purchase cost over time.
-//           </p>
-//           <p className="mb-3 opacity-50">
-//             With SIP, you can start investing with as little as ₹500 and
-//             increase your investments as your financial situation improves. It's
-//             the most disciplined way to grow your wealth over time.
-//           </p>
-
-//           <h3 className="font-bold text-2xl mb-3">Benefits of SIP</h3>
-//           <p className="mb-3 opacity-50">
-//             SIP provides a way to invest in mutual funds or stocks
-//             systematically. Some key benefits include:
-//           </p>
-//           <ul className="list-disc ml-6 opacity-50 mb-3">
-//             <li>
-//               Rupee Cost Averaging: Invest regularly regardless of market
-//               conditions.
-//             </li>
-//             <li>
-//               Power of Compounding: Earn returns on your returns over time.
-//             </li>
-//             <li>Flexibility: Modify the SIP amount as your income grows.</li>
-//           </ul>
-
-//           <h3 className="font-bold text-2xl mb-3">
-//             How SIP Helps You Achieve Your Goals
-//           </h3>
-//           <p className="mb-3 opacity-50">
-//             SIP is the best way to achieve long-term financial goals like buying
-//             a home, funding education, or retirement planning. The systematic
-//             nature of SIP ensures you stay on track and make consistent progress
-//             toward your goals.
-//           </p>
-//           <p className="mb-3 opacity-50">
-//             Whether you want to save for your child's education, buy a dream
-//             car, or simply build a retirement corpus, SIP makes it easy to
-//             manage your financial future.
-//           </p>
-
-//           <h3 className="font-bold text-2xl mb-3">Start Investing with SIP</h3>
-//           <p className="mb-3 opacity-50">
-//             No matter your age or financial background, SIP makes investing
-//             simple, flexible, and accessible. It’s time to start planning for
-//             your future—one SIP at a time.
-//           </p>
-
-//           <Reveal delay={200} duration={1000} keyframes={fadeInDownShorter2}>
-//             <Button variant={"primary"}>Start Your SIP Now</Button>
-//           </Reveal>
-//         </div>
-//       </div>
-//     </Container>
-//   );
-// };
-
-// export default AboutUs;
-
 import React from "react";
 import { Button, Container } from ".";
 import { Reveal } from "react-awesome-reveal";
@@ -154,13 +49,14 @@ const AboutUs = () => {
           </h3>
           <p className="mb-3 opacity-50 text-sm md:text-base">
             SIP allows you to invest in small amounts regularly, making it
-            affordable for everyone. It helps you reduce the risk of market
-            volatility by averaging the purchase cost over time.
+            affordable for everyone. It&apos;s the most disciplined way to grow
+            your wealth over time.
           </p>
+
           <p className="mb-3 opacity-50 text-sm md:text-base">
             With SIP, you can start investing with as little as ₹500 and
-            increase your investments as your financial situation improves. It's
-            the most disciplined way to grow your wealth over time.
+            increase your investments as your financial situation improves.
+            It&apos;s the most disciplined way to grow your wealth over time.
           </p>
 
           <h3 className="font-bold text-xl md:text-2xl mb-3">
@@ -191,8 +87,8 @@ const AboutUs = () => {
             toward your goals.
           </p>
           <p className="mb-3 opacity-50 text-sm md:text-base">
-            Whether you want to save for your child's education, buy a dream
-            car, or simply build a retirement corpus, SIP makes it easy to
+            Whether you want to save for your child&apos;s education, buy a
+            dream car, or simply build a retirement corpus, SIP makes it easy to
             manage your financial future.
           </p>
 
@@ -201,8 +97,8 @@ const AboutUs = () => {
           </h3>
           <p className="mb-3 opacity-50 text-sm md:text-base">
             No matter your age or financial background, SIP makes investing
-            simple, flexible, and accessible. It's time to start planning for
-            your future—one SIP at a time.
+            simple, flexible, and accessible. It&apos;s time to start planning
+            for your future—one SIP at a time.
           </p>
 
           <Reveal delay={200} duration={1000} keyframes={fadeInDownShorter2}>

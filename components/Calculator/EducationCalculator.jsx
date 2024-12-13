@@ -87,7 +87,7 @@ const EducationCalculator = () => {
     <div className={styles.statementContainer}>
       <div className={styles.statementText}>
         <p>
-          For your child's future, you may need{" "}
+          For your child&apos;s future, you may need{" "}
           <span className={styles.highlightText}>
             ₹{Number(futureCost).toLocaleString()}
           </span>{" "}
@@ -103,7 +103,7 @@ const EducationCalculator = () => {
           <span className={styles.highlightText}>
             ₹{Number(additionalAmount).toLocaleString()}
           </span>{" "}
-          to fund your child's future.
+          to fund your child&apos;s future.
         </p>
       </div>
       <div className={styles.sipGoalText}>
@@ -196,7 +196,7 @@ const EducationCalculator = () => {
           , is for illustration purpose only and should not be construed as a
           promise on minimum returns and safeguard of capital.SIP Calculator is
           designed to assist you in determining the appropriate amount. SIP
-          calculator alone are not sufficient and shouldn't be used for the
+          calculator alone are not sufficient and shouldn&apos;t be used for the
           development or implementation of an investment strategy. KMAMC makes
           no warranty about the accuracy of the calculators/reckoners. The
           examples do not purport to represent the performance of any security

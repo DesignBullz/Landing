@@ -110,7 +110,7 @@ const SIPWealthCalculator = () => {
           is for illustration purposes only and should not be construed as a
           promise on minimum returns and safeguard of capital. SIP Calculator is
           designed to assist you in determining the appropriate amount. SIP
-          calculator alone are not sufficient and shouldn't be used for the
+          calculator alone are not sufficient and shouldn&apos;t be used for the
           development or implementation of an investment strategy.
         </p>
         <div className="text-right">

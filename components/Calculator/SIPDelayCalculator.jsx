@@ -105,7 +105,7 @@ const SIPDelayCalculator = () => {
           assure a profit or guarantee protection against loss in a declining
           market. SIP Calculator is designed to assist you in determining the
           appropriate amount. SIP calculators alone are not sufficient and
-          shouldn't be used for the development or implementation of an
+          shouldn&apos;t be used for the development or implementation of an
           investment strategy. KMAMC makes no warranty about the accuracy of the
           calculators.
         </p>
@@ -151,7 +151,7 @@ const SIPDelayCalculator = () => {
         </p>
       </div>
       <div className="text-body font-semibold text-gray-800 mt-4">
-        Don't delay, start investing today!
+        Don&apos;t delay, start investing today!
       </div>
     </div>
   );
