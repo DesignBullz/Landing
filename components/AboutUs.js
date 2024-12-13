@@ -2,27 +2,31 @@
 // import { Button, Container } from ".";
 // import { Reveal } from "react-awesome-reveal";
 // import { fadeInDownShorter2, fadeInLeft } from "@/keyframes";
-// // import Image from "next/image";
-// import v from "../public/icons/q.mp4";
+// import v from "../public/icons/q.mp4"; // Video source for SIP-related video
 
 // const AboutUs = () => {
 //   return (
-//     <Container className={"mb-44 scroll-mt-10"} id="about">
+//     <Container className="mb-44 scroll-mt-10" id="about">
+//       {/* About Us Section */}
 //       <div className="text-center mb-8">
-//         <h2 className="font-bold text-3xl mb-2">About CSD Gaadi</h2>
+//         <h2 className="font-bold text-3xl mb-2">
+//           About Systematic Investment Plan (SIP)
+//         </h2>
 //         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>
 //           <p className="opacity-50 w-full sm:w-[400px] mx-auto">
-//             CSD Gaadi is your one-stop destination for exclusive vehicle deals
-//             for defence and army personnel. We offer a wide range of 2-wheelers,
-//             4-wheelers, and electric bikes at unbeatable prices.
+//             SIP is an investment strategy where you invest a fixed amount
+//             regularly in mutual funds or stocks. It helps you build wealth over
+//             time with the power of compounding, allowing you to achieve your
+//             financial goals without worrying about market fluctuations.
 //           </p>
 //         </Reveal>
 //       </div>
+
+//       {/* Video Section */}
 //       <div className="flex items-center">
-//         <div className="w-[44%] hidden sm:block relative">
+//         <div className="w-full sm:w-[44%] relative rounded-2xl overflow-hidden">
 //           <Reveal keyframes={fadeInLeft} triggerOnce>
-//             <div className="relative w-full h-[700px] rounded-2xl overflow-hidden">
-//               {/* Video Element: Plays continuously and automatically */}
+//             <div className="relative w-full h-[350px] sm:h-[500px] lg:h-[700px]">
 //               <video
 //                 className="absolute top-0 left-0 w-full h-full object-cover"
 //                 autoPlay
@@ -35,92 +39,62 @@
 //             </div>
 //           </Reveal>
 //         </div>
+
+//         {/* Content Section */}
 //         <div className="flex-1 ml-0 sm:ml-10 lg:ml-20">
-//           <h3 className="font-bold text-2xl mb-3">
-//             Exclusive Deals for Defence Personnel
-//           </h3>
+//           <h3 className="font-bold text-2xl mb-3">Why Choose SIP?</h3>
 //           <p className="mb-3 opacity-50">
-//             At CSD Gaadi, we provide exclusive offers and discounts on vehicles
-//             for all defence and army personnel. Whether it's a 2-wheeler,
-//             4-wheeler, or even an electric bike, we ensure that the process is
-//             simple, quick, and transparent.
+//             SIP allows you to invest in small amounts regularly, making it
+//             affordable for everyone. It helps you reduce the risk of market
+//             volatility by averaging the purchase cost over time.
 //           </p>
 //           <p className="mb-3 opacity-50">
-//             Our mission is to make mobility easy and affordable for our armed
-//             forces by providing vehicles at special prices and financing options
-//             that suit their needs.
+//             With SIP, you can start investing with as little as ₹500 and
+//             increase your investments as your financial situation improves. It's
+//             the most disciplined way to grow your wealth over time.
 //           </p>
 
-//           <h3 className="font-bold text-2xl mb-3">
-//             Insurance & Financing Options
-//           </h3>
+//           <h3 className="font-bold text-2xl mb-3">Benefits of SIP</h3>
 //           <p className="mb-3 opacity-50">
-//             We understand that purchasing a vehicle is a significant investment.
-//             That’s why we offer comprehensive insurance plans to safeguard your
-//             vehicle. Our insurance packages are designed to provide complete
-//             coverage, ensuring peace of mind for our customers.
+//             SIP provides a way to invest in mutual funds or stocks
+//             systematically. Some key benefits include:
 //           </p>
-//           <p className="mb-3 opacity-50">
-//             In addition to insurance, we also offer financing options that make
-//             vehicle ownership even more accessible. Whether you're looking for
-//             easy EMIs or special defence personnel loans, we have partnered with
-//             leading financial institutions to give you the best deals.
-//           </p>
+//           <ul className="list-disc ml-6 opacity-50 mb-3">
+//             <li>
+//               Rupee Cost Averaging: Invest regularly regardless of market
+//               conditions.
+//             </li>
+//             <li>
+//               Power of Compounding: Earn returns on your returns over time.
+//             </li>
+//             <li>Flexibility: Modify the SIP amount as your income grows.</li>
+//           </ul>
 
 //           <h3 className="font-bold text-2xl mb-3">
-//             Our Commitment to Defence & Army Personnel
+//             How SIP Helps You Achieve Your Goals
 //           </h3>
 //           <p className="mb-3 opacity-50">
-//             We are deeply committed to serving those who serve us. CSD Gaadi’s
-//             exclusive deals, tailored financing, and insurance options are just
-//             a few ways we show our gratitude to the brave men and women in
-//             uniform. We offer top-quality vehicles with the added advantage of
-//             lower prices and easy payment terms.
+//             SIP is the best way to achieve long-term financial goals like buying
+//             a home, funding education, or retirement planning. The systematic
+//             nature of SIP ensures you stay on track and make consistent progress
+//             toward your goals.
+//           </p>
+//           <p className="mb-3 opacity-50">
+//             Whether you want to save for your child's education, buy a dream
+//             car, or simply build a retirement corpus, SIP makes it easy to
+//             manage your financial future.
+//           </p>
+
+//           <h3 className="font-bold text-2xl mb-3">Start Investing with SIP</h3>
+//           <p className="mb-3 opacity-50">
+//             No matter your age or financial background, SIP makes investing
+//             simple, flexible, and accessible. It’s time to start planning for
+//             your future—one SIP at a time.
 //           </p>
 
 //           <Reveal delay={200} duration={1000} keyframes={fadeInDownShorter2}>
-//             <Button variant={"primary"}>Explore Our Vehicles</Button>
+//             <Button variant={"primary"}>Start Your SIP Now</Button>
 //           </Reveal>
-//         </div>
-//       </div>
-
-//       {/* More about the company's services */}
-//       <div className="mt-16">
-//         <div className="text-center">
-//           <h2 className="font-bold text-3xl mb-5">Our Services</h2>
-//           <p className="opacity-50 w-full sm:w-[600px] mx-auto">
-//             In addition to offering vehicles, we provide end-to-end services
-//             that cater to all your vehicle needs. From insurance to financing,
-//             from after-sales support to customisation, we ensure a smooth and
-//             hassle-free experience for our defence and army customers.
-//           </p>
-//         </div>
-
-//         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-16">
-//           <div className="text-center">
-//             <h4 className="font-bold text-xl mb-2">Insurance Plans</h4>
-//             <p className="opacity-50">
-//               We offer a wide range of vehicle insurance plans, including
-//               third-party, comprehensive, and accident cover to ensure you are
-//               fully protected.
-//             </p>
-//           </div>
-//           <div className="text-center">
-//             <h4 className="font-bold text-xl mb-2">Easy Financing</h4>
-//             <p className="opacity-50">
-//               Flexible EMI options and financing tailored for defence personnel.
-//               Our partners offer low-interest rates and quick processing to make
-//               your dream vehicle a reality.
-//             </p>
-//           </div>
-//           <div className="text-center">
-//             <h4 className="font-bold text-xl mb-2">After-Sales Support</h4>
-//             <p className="opacity-50">
-//               Our commitment to you doesn't end at the point of sale. We offer
-//               top-tier after-sales services, including maintenance, repairs, and
-//               customisation options for your vehicles.
-//             </p>
-//           </div>
 //         </div>
 //       </div>
 //     </Container>
@@ -133,34 +107,38 @@ import React from "react";
 import { Button, Container } from ".";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter2, fadeInLeft } from "@/keyframes";
-import Image from "next/image"; // Uncomment if using images with next/image
-import v from "../public/icons/q.mp4"; // Video source
+import v from "../public/icons/q.mp4"; // Video source for SIP-related video
 
 const AboutUs = () => {
   return (
-    <Container className="mb-44 scroll-mt-10" id="about">
+    <Container className="mb-12 md:mb-44 scroll-mt-10" id="about">
       {/* About Us Section */}
       <div className="text-center mb-8">
-        <h2 className="font-bold text-3xl mb-2">About CSD Gaadi</h2>
+        <h2 className="font-bold text-2xl md:text-3xl mb-2">
+          About Systematic Investment Plan (SIP)
+        </h2>
         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>
-          <p className="opacity-50 w-full sm:w-[400px] mx-auto">
-            CSD Gaadi is your one-stop destination for exclusive vehicle deals
-            for defence and army personnel. We offer a wide range of 2-wheelers,
-            4-wheelers, and electric bikes at unbeatable prices.
+          <p className="opacity-50 px-4 md:px-0 w-full md:w-[400px] mx-auto text-sm md:text-base">
+            SIP is an investment strategy where you invest a fixed amount
+            regularly in mutual funds or stocks. It helps you build wealth over
+            time with the power of compounding, allowing you to achieve your
+            financial goals without worrying about market fluctuations.
           </p>
         </Reveal>
       </div>
 
-      {/* Video Section */}
-      <div className="flex items-center">
-        <div className="w-[44%] hidden sm:block relative">
+      {/* Video and Content Section */}
+      <div className="flex flex-col md:flex-row items-center">
+        {/* Video Section */}
+        <div className="w-full md:w-[44%] mb-6 md:mb-0 rounded-2xl overflow-hidden">
           <Reveal keyframes={fadeInLeft} triggerOnce>
-            <div className="relative w-full h-[700px] rounded-2xl overflow-hidden">
+            <div className="relative w-full h-[250px] md:h-[500px] lg:h-[700px]">
               <video
                 className="absolute top-0 left-0 w-full h-full object-cover"
                 autoPlay
                 loop
                 muted
+                playsInline
               >
                 <source src={v} type="video/mp4" />
                 Your browser does not support the video tag.
@@ -170,93 +148,70 @@ const AboutUs = () => {
         </div>
 
         {/* Content Section */}
-        <div className="flex-1 ml-0 sm:ml-10 lg:ml-20">
-          <h3 className="font-bold text-2xl mb-3">
-            Exclusive Deals for Defence Personnel
+        <div className="w-full md:flex-1 md:ml-10 lg:ml-20 px-4 md:px-0">
+          <h3 className="font-bold text-xl md:text-2xl mb-3">
+            Why Choose SIP?
           </h3>
-          <p className="mb-3 opacity-50">
-            At CSD Gaadi, we provide exclusive offers and discounts on vehicles
-            for all defence and army personnel. Whether it&apos;s a 2-wheeler,
-            4-wheeler, or even an electric bike, we ensure that the process is
-            simple, quick, and transparent.
+          <p className="mb-3 opacity-50 text-sm md:text-base">
+            SIP allows you to invest in small amounts regularly, making it
+            affordable for everyone. It helps you reduce the risk of market
+            volatility by averaging the purchase cost over time.
           </p>
-          <p className="mb-3 opacity-50">
-            Our mission is to make mobility easy and affordable for our armed
-            forces by providing vehicles at special prices and financing options
-            that suit their needs.
+          <p className="mb-3 opacity-50 text-sm md:text-base">
+            With SIP, you can start investing with as little as ₹500 and
+            increase your investments as your financial situation improves. It's
+            the most disciplined way to grow your wealth over time.
           </p>
 
-          <h3 className="font-bold text-2xl mb-3">
-            Insurance & Financing Options
+          <h3 className="font-bold text-xl md:text-2xl mb-3">
+            Benefits of SIP
           </h3>
-          <p className="mb-3 opacity-50">
-            We understand that purchasing a vehicle is a significant investment.
-            That&apos;s why we offer comprehensive insurance plans to safeguard
-            your vehicle. Our insurance packages are designed to provide
-            complete coverage, ensuring peace of mind for our customers.
+          <p className="mb-3 opacity-50 text-sm md:text-base">
+            SIP provides a way to invest in mutual funds or stocks
+            systematically. Some key benefits include:
           </p>
-          <p className="mb-3 opacity-50">
-            In addition to insurance, we also offer financing options that make
-            vehicle ownership even more accessible. Whether you&apos;re looking
-            for easy EMIs or special defence personnel loans, we have partnered
-            with leading financial institutions to give you the best deals.
+          <ul className="list-disc ml-6 opacity-50 mb-3 text-sm md:text-base">
+            <li>
+              Rupee Cost Averaging: Invest regularly regardless of market
+              conditions.
+            </li>
+            <li>
+              Power of Compounding: Earn returns on your returns over time.
+            </li>
+            <li>Flexibility: Modify the SIP amount as your income grows.</li>
+          </ul>
+
+          <h3 className="font-bold text-xl md:text-2xl mb-3">
+            How SIP Helps You Achieve Your Goals
+          </h3>
+          <p className="mb-3 opacity-50 text-sm md:text-base">
+            SIP is the best way to achieve long-term financial goals like buying
+            a home, funding education, or retirement planning. The systematic
+            nature of SIP ensures you stay on track and make consistent progress
+            toward your goals.
+          </p>
+          <p className="mb-3 opacity-50 text-sm md:text-base">
+            Whether you want to save for your child's education, buy a dream
+            car, or simply build a retirement corpus, SIP makes it easy to
+            manage your financial future.
           </p>
 
-          <h3 className="font-bold text-2xl mb-3">
-            Our Commitment to Defence & Army Personnel
+          <h3 className="font-bold text-xl md:text-2xl mb-3">
+            Start Investing with SIP
           </h3>
-          <p className="mb-3 opacity-50">
-            We are deeply committed to serving those who serve us. CSD
-            Gaadi&apos;s exclusive deals, tailored financing, and insurance
-            options are just a few ways we show our gratitude to the brave men
-            and women in uniform. We offer top-quality vehicles with the added
-            advantage of lower prices and easy payment terms.
+          <p className="mb-3 opacity-50 text-sm md:text-base">
+            No matter your age or financial background, SIP makes investing
+            simple, flexible, and accessible. It's time to start planning for
+            your future—one SIP at a time.
           </p>
 
           <Reveal delay={200} duration={1000} keyframes={fadeInDownShorter2}>
-            <Button variant={"primary"}>Explore Our Vehicles</Button>
+            <div className="flex justify-center md:block">
+              <Button variant={"primary"} className="w-full md:w-auto">
+                Start Your SIP Now
+              </Button>
+            </div>
           </Reveal>
-        </div>
-      </div>
-
-      {/* Our Services Section */}
-      <div className="mt-16">
-        <div className="text-center">
-          <h2 className="font-bold text-3xl mb-5">Our Services</h2>
-          <p className="opacity-50 w-full sm:w-[600px] mx-auto">
-            In addition to offering vehicles, we provide end-to-end services
-            that cater to all your vehicle needs. From insurance to financing,
-            from after-sales support to customisation, we ensure a smooth and
-            hassle-free experience for our defence and army customers.
-          </p>
-        </div>
-
-        {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-16">
-          <div className="text-center">
-            <h4 className="font-bold text-xl mb-2">Insurance Plans</h4>
-            <p className="opacity-50">
-              We offer a wide range of vehicle insurance plans, including
-              third-party, comprehensive, and accident cover to ensure you are
-              fully protected.
-            </p>
-          </div>
-          <div className="text-center">
-            <h4 className="font-bold text-xl mb-2">Easy Financing</h4>
-            <p className="opacity-50">
-              Flexible EMI options and financing tailored for defence personnel.
-              Our partners offer low-interest rates and quick processing to make
-              your dream vehicle a reality.
-            </p>
-          </div>
-          <div className="text-center">
-            <h4 className="font-bold text-xl mb-2">After-Sales Support</h4>
-            <p className="opacity-50">
-              Our commitment to you doesn&apos;t end at the point of sale. We
-              offer top-tier after-sales services, including maintenance,
-              repairs, and customisation options for your vehicles.
-            </p>
-          </div>
         </div>
       </div>
     </Container>

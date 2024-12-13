@@ -23,9 +23,9 @@ const Home = () => {
       <AboutUs />
       <Collections />
       <FeaturedArtworks />
-      <TopCreator />
+      {/* <TopCreator /> */}
       <FAQ />
-      <Container>
+      {/* <Container>
         <div
           className={
             "bg-gradient-to-b from-[#B75CFF] to-[#671AE4] rounded-xl py-20 px-10 flex items-center justify-center shadow-lg flex-col mb-44"
@@ -38,7 +38,7 @@ const Home = () => {
             <Button>Explore Cars</Button>
           </Reveal>
         </div>
-      </Container>
+      </Container> */}
       <Footer />
     </div>
   );

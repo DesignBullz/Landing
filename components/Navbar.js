@@ -70,12 +70,12 @@ const ContentSidebar = ({ toggleMenu }) => {
           onClick={toggleMenu}
           className="mb-3 sm:mb-0 mt-4 sm:mt-0 ml-0 sm:ml-7"
         >
-          Collections
+          Dream Calculator
         </a>
       </Link>
       <Link href="/#feature">
         <a onClick={toggleMenu} className="mb-3 sm:mb-0 ml-0 sm:ml-7">
-          Feature
+          SIP Calculator
         </a>
       </Link>
       <Link href="/#faq">
@@ -86,7 +86,7 @@ const ContentSidebar = ({ toggleMenu }) => {
           FAQ
         </a>
       </Link>
-      <Button variant={"primary"}>Book a Test Drive</Button>
+      <Button variant={"primary"}>Start Your SIP Journey</Button>
     </div>
   );
 };
