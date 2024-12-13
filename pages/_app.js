@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>CSD Gaadi - Buy and Sell Cars Online</title>
+        <title>RG FUNDS</title>
 
         <meta name="title" content="PsychoArt - NFT Marketplace" />
         <meta name="description" content="Buy & sale nft online" />
