@@ -235,7 +235,7 @@ const EducationCalculator = () => {
           <h1
             className={`text-2xl sm:text-4xl font-bold text-gray-800 ${styles.headerTitle}`}
           >
-            Child's Education
+            Child&apos;s Education
           </h1>
         </div>
         <div className="space-y-4 sm:space-y-6">
